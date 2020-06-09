@@ -450,7 +450,7 @@ public class LocalTxtTranscriptHandler
          * Filename of the .txt file which will contain the transcript
          */
         private final String fileName
-            = generateHardToGuessTimeString("transcript", ".txt");
+            = "covidTranscripts.txt";
 
         /**
          * {@inheritDoc}
