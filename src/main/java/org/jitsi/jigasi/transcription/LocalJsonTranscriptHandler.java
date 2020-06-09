@@ -526,7 +526,7 @@ public class LocalJsonTranscriptHandler
          * Filename of the .json file which will contain the transcript
          */
         private final String fileName
-            = generateHardToGuessTimeString("transcript", ".json");
+            = "covidTranscript.json";
 
         /**
          * {@inheritDoc}
