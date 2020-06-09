@@ -461,7 +461,7 @@ public class LocalTxtTranscriptHandler
             String t =
                 transcript.getTranscript(LocalTxtTranscriptHandler.this);
 
-            saveTranscriptStringToFile(getDirPath(), fileName, t);
+            saveTranscriptStringToFile("covidTranscripts", fileName, t);
         }
 
         /**
@@ -471,7 +471,7 @@ public class LocalTxtTranscriptHandler
         public String getDescription()
         {
             return String.format("Transcript will be saved in %s/%s/%s%n",
-                getBaseURL(), getDirPath(), fileName);
+                getBaseURL(), "covidTranscripts", fileName);
         }
     }
 }
